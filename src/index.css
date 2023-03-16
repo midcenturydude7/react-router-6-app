@@ -161,6 +161,9 @@ ul {
 .btn-block {
   width: 100%;
 }
+.btn + .btn {
+  margin-left: 1em;
+}
 
 /* alerts */
 .alert {
