@@ -8,7 +8,7 @@ import SharedLayout from "./pages/SharedLayout";
 
 function App() {
   return (
-    <React.Fragment>
+    <>
       <Routes>
         <Route path="/" element={<SharedLayout />}>
           <Route index element={<Home />} />
@@ -25,7 +25,7 @@ function App() {
           }
         />
       </Routes>
-    </React.Fragment>
+    </>
   );
 }
 
