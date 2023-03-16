@@ -24,6 +24,13 @@ const Navbar = () => {
         }>
         Products
       </NavLink>
+      <NavLink
+        to="/login"
+        className={({ isActive }) =>
+          isActive ? "btn active btn-selected" : "btn"
+        }>
+        Login
+      </NavLink>
     </nav>
   );
 };
