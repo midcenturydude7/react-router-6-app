@@ -282,20 +282,28 @@ ul {
   color: var(--grey-500);
 }
 
-.active {
+.active,
+.btn-selected,
+.btn-selected:hover {
   color: var(--primary-500);
   background: var(--primary-100);
   border: 1px solid var(--primary-500);
+  cursor: default;
 }
 .products article {
-  margin-bottom: 1rem;
+  margin-bottom: 1.75em;
 }
 
 .products h5 {
   margin-bottom: 0;
 }
 
-.product img {
+.product img,
+.product-img {
   width: 200px;
   height: 150px;
+}
+.product-img {
+  display: block;
+  margin: 0.5em 0;
 }
