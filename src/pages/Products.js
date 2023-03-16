@@ -1,8 +1,8 @@
 const Products = () => {
   return (
     <>
-      <section className='section'>
-        <h2>products</h2>
+      <section className="section">
+        <h2>Products Page</h2>
       </section>
     </>
   );
