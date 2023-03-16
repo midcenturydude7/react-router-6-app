@@ -5,12 +5,6 @@ const Products = () => {
     <>
       <section className="section">
         <h2>Products Page</h2>
-        <Link to="/" className="btn">
-          Home
-        </Link>
-        <Link to="/about" className="btn">
-          About
-        </Link>
       </section>
     </>
   );

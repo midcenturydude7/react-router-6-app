@@ -134,6 +134,7 @@ ul {
 /* buttons */
 
 .btn {
+  margin-top: 1em;
   cursor: pointer;
   color: var(--white);
   background: var(--primary-500);
